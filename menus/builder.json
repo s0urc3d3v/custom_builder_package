@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "builder:toggle"
+            },
+            {
+              "label": "Edit Commands",
+              "command": "builder:editCommands"
             }
           ]
         }
