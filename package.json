@@ -6,7 +6,8 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "builder:toggle"
+    "atom-workspace": "builder:build",
+    "atom_workspace":"builder:editCommands"
   },
   "repository": "https://github.com/atom/builder",
   "license": "MIT",

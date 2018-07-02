@@ -37,7 +37,7 @@ describe('Builder', () => {
 
         let builderPanel = atom.workspace.panelForItem(builderElement);
         expect(builderPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'builder:toggle');
+        atom.commands.dispatch(workspaceElement, 'builder:build');
         expect(builderPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('Builder', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'builder:toggle');
+      atom.commands.dispatch(workspaceElement, 'builder:buil');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('Builder', () => {
         // Now we can test for view visibility
         let builderElement = workspaceElement.querySelector('.builder');
         expect(builderElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'builder:toggle');
+        atom.commands.dispatch(workspaceElement, 'builder:buil');
         expect(builderElement).not.toBeVisible();
       });
     });

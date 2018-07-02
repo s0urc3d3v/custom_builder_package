@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "builder:toggle"
+    "ctrl-alt-o": "builder:build"
   }
 }
