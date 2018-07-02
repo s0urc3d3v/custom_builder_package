@@ -15,8 +15,8 @@
           "label": "builder",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "builder:toggle"
+              "label": "build",
+              "command": "builder:build"
             },
             {
               "label": "Edit Commands",

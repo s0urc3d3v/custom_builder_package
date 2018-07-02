@@ -14,5 +14,13 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "config": {
+    "command": {
+      "description": "Current command",
+      "type": "string",
+      "value": "[YOUR COMMAND HERE]",
+      "default": "echo \"please enter config data\""
+    }
   }
 }
